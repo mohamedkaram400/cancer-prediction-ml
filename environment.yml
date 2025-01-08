@@ -1,0 +1,12 @@
+name: cancer_prediction
+channels:
+  - defaults
+dependencies:
+  - numpy=1.21.2
+  - pandas=1.3.3
+  - scikit-learn=0.24.2
+  - matplotlib=3.4.3
+  - jupyter
+  - pip:
+      - tensorflow==2.6.0
+      - keras==2.6.0
