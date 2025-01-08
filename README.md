@@ -12,16 +12,21 @@ This project is a machine learning-based cancer prediction tool using the Logist
    cd cancer-prediction-ml
 
 ## Option 1: Create environment using environment.yml
+```bash
 conda create --name cancer_prediction --file environment.yml
-
+```
 ## OR Option 2: Manually create and install dependencies
+```bash
 conda create --name cancer_prediction python=3.8
 conda activate cancer_prediction
 conda install numpy=1.21.2 pandas=1.3.3 scikit-learn=0.24.2 matplotlib=3.4.3 jupyter
 pip install tensorflow==2.6.0 keras==2.6.0
-
+```
 ## Activate the environment
+```bash
 conda activate cancer_prediction
-
+```
 ## Launch the Jupyter Notebook
+```bash
 jupyter notebook
+```
